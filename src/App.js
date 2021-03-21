@@ -11,7 +11,7 @@ export default function App() {
           <h1 className="text-center">Anna`s dictionary</h1>
         </header>
         <main>
-          <Dictionary defaultKeyWord="journey"/>
+          <Dictionary defaultKeyWord="sunset"/>
         </main>
         <footer className="App-footer">
           Coded by Anna Kassai
