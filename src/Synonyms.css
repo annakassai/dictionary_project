@@ -5,6 +5,7 @@
 }
 
 .Synonyms li {
-    display: inline;
-    padding-right: 10px;
+    display: inline-block;
+    padding-right: 8px;
+    font-weight: 600;
 }

@@ -1,11 +1,11 @@
 body {
   background:#ffffff;
   max-width: 650px;
-  margin:0 auto;
+  margin:20px auto;
 }
 
 .App .svglogo {
-  margin-right: 16px;
+  margin-right: 12px;
 }
 
 .App h1 {
@@ -25,15 +25,12 @@ body {
   display: block;
   text-align: left;
   margin: 0 auto;
-  max-width: 440px;
-  max-height: fit-content;
   font-size: 11px;
   font-weight: 580;
   font-family: 'Public Sans', sans-serif;
   text-align: center;
   line-height: 2;
   color: #2a292c;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
 }
 
 .linkedin-link,.github-link,.netlify-link {
@@ -47,4 +44,17 @@ body {
   color: #2a292c;
   opacity: 0.9;
   cursor: pointer;
+}
+
+@media (max-with:900px) {
+    h1 {
+      font-size: 14px;
+    }
+   
+    .App .svglogo {
+      display: left;
+      margin-right: 0;
+    }
+      
+
 }

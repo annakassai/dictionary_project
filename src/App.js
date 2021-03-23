@@ -6,12 +6,12 @@ export default function App() {
     <div className="App">
       <div className="container">
         <header className="App-header">
-        <div class="d-flex justify-content-center mt-5">
+        <div className="d-flex justify-content-center mt-5">
           <svg width="65" height="50" className="svglogo">
-              <circle cx="40" cy="25" r="23" fill="none" stroke="#ff69b4" stroke-width="4"/>
-              <text x="60%" y="50%" text-anchor="middle" fill="#000000" font-size="22px" font-family="Playfair Display" font-weight="600" dy=".3em">AK</text>
+              <circle cx="40" cy="25" r="23" fill="none" stroke="#ff69b4" strokeWidth="4"/>
+              <text x="60%" y="50%" textAnchor="middle" fill="#000000" fontSize="22px" fontFamily="Playfair Display" fontWeight="600" dy=".3em">AK</text>
           </svg>
-          <h1 className="text-center">Anna`s dictionary</h1>
+          <h1 className="text-center">Dictionary</h1>
         </div>  
         </header>
         <main>

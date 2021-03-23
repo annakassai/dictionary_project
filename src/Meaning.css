@@ -4,8 +4,18 @@
     line-height: 1.5;
 }
 
+.Meaning .definition {
+    text-align:left;
+}
+
 .Meaning .example {
     color:#70757a;
     font-style: italic;
     margin-top: 10px;
+    text-align:left;
 }
+
+.Meaning .example:first-letter, .definition:first-letter{
+    text-transform: capitalize;
+}
+
