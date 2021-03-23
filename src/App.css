@@ -4,15 +4,16 @@ body {
   margin:0 auto;
 }
 
-.App a {
-  color:#f0a4ae;
+.App .svglogo {
+  margin-right: 16px;
 }
 
-.App-logo {
-  max-width: 180px;
-  max-height: 80px;
-  display: block;
-  margin:0 auto;
+.App h1 {
+  font-size: 36px;
+}
+
+.App a {
+  color:#f0a4ae;
 }
 
 .App-footer {
@@ -20,3 +21,30 @@ body {
   margin: 30px 0;
 }
 
+.link {
+  display: block;
+  text-align: left;
+  margin: 0 auto;
+  max-width: 440px;
+  max-height: fit-content;
+  font-size: 11px;
+  font-weight: 580;
+  font-family: 'Public Sans', sans-serif;
+  text-align: center;
+  line-height: 2;
+  color: #2a292c;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.linkedin-link,.github-link,.netlify-link {
+  text-decoration: none;
+  font-weight: 600;
+  color:#2a292c;
+}
+
+.linkedin-link:hover,.github-link:hover,.netlify-link:hover{
+  text-decoration: underline;
+  color: #2a292c;
+  opacity: 0.9;
+  cursor: pointer;
+}
