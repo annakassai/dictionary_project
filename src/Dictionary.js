@@ -2,6 +2,7 @@ import React, {useState} from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
+import Loader from "react-loader-spinner";
 import "./Dictionary.css";
 
 export default function Dictionary(props) {
@@ -65,6 +66,13 @@ export default function Dictionary(props) {
         );
     } else {
         load();
-        return "Loading..."
+        return <Loader
+        className="loading"
+        type="ThreeDots"
+        color="#2a292c"
+        height={100}
+        width={100}
+        timeout={5000}
+      />;
+      };
     }
-}
